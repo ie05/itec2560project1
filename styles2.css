@@ -107,6 +107,10 @@ label{
 .centered{
   text-align: center;
 }
+#fb_comments{
+    margin: 30% auto 2% auto;
+    width: 600px;
+}
 @media screen and (max-width: 820px){
     .col-1,.col-2{
     width: 100%;
