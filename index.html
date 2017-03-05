@@ -13,77 +13,75 @@
 </head>
 <body>
 <div id="fb-root"></div>
-<!-- <script>(function(d, s, id) {
+<script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
   js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=490318041356805";
   fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script> -->
-<header>
-  <h1>SPEED READER APP</h1>
-  <h2>Copy and Paste Text Into the Textbox Below</h2>
-</header>
-
-<div class="col-1">
-  <div class="center-align">
-    <form id="load-text-form" action="#" method="post">
-      <label for="textarea">Enter Text Here</label>
-      <textarea id="textarea" rows="10" cols="50" name="textarea" value="" required="required" placeholder="Paste your sample text here" >This is some sample text for testing word speed and APP functionality...Paste in your own text for longer reading challenges.</textarea>
-      <ul class="speed-controls">
-        <li>
-          <button id="load-text" type="submit" value="submit">LOAD TEXT</button>
-        </li>
-      </ul>
-    </form>
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="main-cont">
+  <header>
+    <h1>SPEED READER APP</h1>
+    <h2>Copy and Paste Text Into the Textbox Below</h2>
+  </header>
+  <div class="col-1">
+    <div class="center-align">
+      <form id="load-text-form" action="#" method="post">
+        <label for="textarea">Enter Text Here</label>
+        <textarea id="textarea" rows="10" cols="50" name="textarea" value="" required="required" placeholder="Paste your sample text here" >This is some sample text for testing word speed and APP functionality...Paste in your own text for longer reading challenges.</textarea>
+        <ul class="speed-controls no-border">
+          <li>
+            <button id="load-text" type="submit" value="submit">LOAD TEXT</button>
+          </li>
+        </ul>
+      </form>
+    </div>
   </div>
-</div>
 
-<div class="col-2">
-  <div class="center-align">
-    <div class="reader-cont">
-      <label for="textarea">Text Will Display Here</label>
-      <div id="reader">
-          <div id="output">Text displays here</div>
-      </div>
-      <ul class="speed-controls">
-        <li>
-          <button id="play-text" type="submit" value="submit">START SPEED READER</button> 
-        </li>
-        <li>
-          <label for="speed">Word Speed (WPM)</label>
-          <select name="speed" id="speed">
-            <option value="400">150</option>
-            <option value="300">200</option>
-            <option value="240">250</option>
-            <option value="200">300</option>
-            <option value="171">350</option>
-            <option value="150">400</option>
-            <option value="133">450</option>
-            <option value="120">500</option>
-            <option value="60">Blazin'</option>
-          </select>
-        </li>
-      </ul>
-      <ul class="speed-controls centered">
-        <li>
-          <button id="pause" class="buttons" type="submit" value="pause">||</button> 
-        </li>
-        <li>
-          <button id="play" class="buttons" type="submit" value="play">></button> 
-        </li>
-        <li>
-          <button id="reset" class="buttons" type="submit" value="reset">RESET</button> 
-        </li>
-      </ul>
-     <div id="slider"></div>
-    </div> 
+  <div class="col-2">
+    <div class="center-align">
+      <div class="reader-cont">
+        <label for="textarea">Text Will Display Here</label>
+        <div id="reader">
+            <div id="output">Text displays here</div>
+        </div>
+        <ul class="speed-controls">
+          <li>
+            <label for="speed">Word Speed (WPM)</label>
+            <select name="speed" id="speed">
+              <option value="400">150</option>
+              <option value="300">200</option>
+              <option value="240">250</option>
+              <option value="200">300</option>
+              <option value="171">350</option>
+              <option value="150">400</option>
+              <option value="133">450</option>
+              <option value="120">500</option>
+              <option value="60">Blazin'</option>
+            </select>
+          </li>
+           <li>
+            <button id="pause" class="buttons transparent" type="submit" value="pause">||</button> 
+          </li>
+          <li>
+            <button id="play" class="buttons transparent" type="submit" value="play"><div class="arrow-right"></div></button> 
+          </li>
+          <li>
+            <button id="reset" class="buttons transparent" type="submit" value="reset">RESET</button> 
+          </li>
+          <li>
+            <div id="slider"></div>
+          </li>
+        </ul>
+      </div> 
+    </div>
   </div>
-</div>
 
-<div id="fbc-comments">
-  <div class="fb-comments" data-href="https://ie05.github.io/itec2560project1/" data-width="600" data-numposts="5"></div>
-</div>
+  <div id="fbc-comments">
+    <div class="fb-comments" data-href="https://ie05.github.io/itec2560project1/" data-width="600" data-numposts="5"></div>
+  </div>
+</div> <!-- end main-cont -->
 </body>
 </html>
 
