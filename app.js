@@ -1,4 +1,5 @@
-$(document).ready(function(){
+(function($){
+  $(document).ready(function(){
 
   // model to store user input
   // text and cache the index
@@ -188,4 +189,5 @@ $(document).ready(function(){
   // for DOM elements
   controller.init();
 
-}); // end document.ready
+  });
+})(jQuery); // end document.ready
