@@ -1,8 +1,6 @@
-#################################
-Ian Handshy
-#################################
-Project: 1 - Speed Reading Tutor
-#################################
+#Ian Handshy
+
+##Project: 1 - Speed Reading Tutor
 
 I'm planning to build a speed reader. I've always felt I read slowly and have always wanted to find a way to practice reading faster.
 
