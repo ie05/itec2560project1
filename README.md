@@ -1,10 +1,9 @@
 # Ian Handshy
-## Project: 1 - Speed Reading Tutor
+## Speed Reading Tutor
 
-I'm planning to build a speed reader. I've always felt I read slowly and have always wanted to find a way to practice reading faster.
+An app that helps you learn to read faster by challenging you to ready a single word on the screen at an increasing rate of speed.
 
-I'm planning to build this and enrich the speeder with some jquery/jquery UI features - especially a slider to adjust the word speed.
-
-Another part I'd like to add in is maybe use facebook's api to add a social component to my project.
+This app utilizes some jQuery/jQuery UI features - especially the slider to adjust word speed. This app also features Facebook's API to add comments.
 
 This program is hosted on github at: https://ie05.github.io/itec2560project1/
+
